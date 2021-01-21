@@ -1,7 +1,8 @@
-name: analysis_template
+name: tn_decoding
 channels:
-- defaults
 - conda-forge
+- defaults
+- edeno
 dependencies:
 - "python>=3.6"
 - numpy
@@ -9,6 +10,9 @@ dependencies:
 - scipy
 - scikit-learn
 - matplotlib
+- loren_frank_data_processing
+- replay_trajectory_classification
+- ripple_detection
 - xarray
 - pandas
 - dask

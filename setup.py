@@ -3,11 +3,14 @@
 from setuptools import find_packages, setup
 
 INSTALL_REQUIRES = ['numpy', 'numba', 'scipy', 'scikit-learn', 'matplotlib',
-                    'xarray', 'pandas', 'dask', 'tqdm', 'statsmodels', 'patsy']
+                    'xarray', 'pandas', 'dask', 'tqdm', 'statsmodels', 'patsy',
+                    'loren_frank_data_processing',
+                    'replay_trajectory_classification',
+                    'ripple_detection']
 TESTS_REQUIRE = ['pytest >= 2.7.1']
 
 setup(
-    name='analysis_template',
+    name='tn_decoding',
     version='0.1.0.dev0',
     license='MIT',
     description=(''),

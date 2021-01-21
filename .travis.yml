@@ -13,8 +13,8 @@ install:
   - conda update -q conda
   - conda info -a
   - conda env create -f environment.yml
-  - source activate analysis_template
+  - source activate tn_decoding
   - python setup.py develop
-script: pytest --cov=analysis_template tests/
+script: pytest --cov=tn_decoding tests/
 after_success:
     - coveralls

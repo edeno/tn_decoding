@@ -1,13 +1,8 @@
-# <repository_name>
-Repository description goes here.
+# tn_decoding
 
 
 ## Installation
-1. git clone <repository>
-2. Add dependencies to setup.py and environment.yml
-3. Create conda environment:
-```conda env create -f environment.yml```
-4. Make package editable:
-```python setup.py develop```
-
-
+1. ```git clone https://github.com/edeno/tn_decoding.git```
+2. ```cd tn_decoding```
+3. ```conda env create -f environment.yml```
+3. ```python setup.py develop```
