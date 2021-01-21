@@ -15,3 +15,6 @@ ANIMALS = {
     'HPa': Animal(directory=join(RAW_DATA_DIR, 'HPa_direct'),
                   short_name='HPa'),
 }
+
+
+MARKS = ['channel_1_max', 'channel_2_max', 'channel_3_max', 'channel_4_max']
